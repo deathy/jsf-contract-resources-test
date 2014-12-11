@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xml:lang="en" lang="en">
+<h:head>
+    <title>Simple JSF Facelets page</title>
+    <h:outputScript name="functions.js" library="js" target="head"/>
+    <h:outputScript name="functions2.js" library="js" target="head"/>
+</h:head>
+
+<h:body>
+    In Template
+    <ui:insert name="content-area">
+        Content area from template
+    </ui:insert>
+</h:body>
+
+</html>
